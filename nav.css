@@ -1,0 +1,251 @@
+/* NAVBAR STYLING STARTS */
+.navbar {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px;
+    background-color: teal;
+    color: #fff;
+    padding-top: 2px;
+    margin-left: 0px ;
+    background-color: black;
+    height: 90px;
+    width: 100%;
+    color: aliceblue;
+    border-radius: 10px;
+    position: none;
+}
+.nav-links a {
+    font-size: 2px;
+    color: #fff;
+}
+   /* LOGO */
+.logo {
+    margin-left: -10px;
+    padding-left: px;
+    font-size: 255px;
+}
+   /* NAVBAR MENU 
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+.menu li:hover {
+    background-color: none;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+.menu li {
+    padding: 5px 14px;
+}
+    DROPDOWN MENU */
+.services {
+    position: relative; 
+}
+   
+
+
+
+
+   input{
+    vertical-align: middle;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    border-radius: 10px;
+}
+
+body{
+    margin: 0%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 26px;
+    text-align: center;   
+    background-image: url(project1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+           
+      }
+/* Font Changes Here*/
+a {
+    font-size: 20px;   
+    font-family: cambria;
+    }
+
+.dropbtn {
+        color: #fff;
+        border-radius: 10px;
+        background-color: black;
+        padding-top: 18px;
+        font-size: 20px;
+        font-family: Cambria;
+        border: none;
+      }
+/*Font Change ends*/      
+    .dropdown {
+        background-color: black;
+        font-size: 16px;
+        position: center;
+        padding: 1px;
+        padding-top: 4px;
+        align-items: center;
+        display: inline-block;
+      }
+      
+    .dropdown-content {
+        display: none;
+        background-color: white;
+        border-radius: 3px;
+        position: absolute;
+        width: 111px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+    .dropdown-content a {
+        color: black;
+        border-radius: 3px;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+    .dropdown-content a:hover {background-color: rgb(207, 148, 148) ;}
+      
+    .dropdown:hover .dropdown-content {display: block;}
+      
+    .dropdown:hover .dropbtn {background-color: none;}
+    .dropbtn:hover {
+        color: #fff;
+    }
+
+
+
+   .dropdown li + li {
+    margin-top: 10px;
+   }
+   .dropdown li {
+    padding: 0.5em 1em;
+    width: 8em;
+    text-align: center;
+   }
+   .dropdown li:hover {
+    background-color: none;
+   }
+   .services:hover .dropdown {
+    display: block;
+   }
+
+
+
+
+
+
+   
+
+
+
+
+   body{
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+header{
+    padding-top: 0%,0%;
+}
+
+.navbar ul{
+    padding-right: 105px;
+    overflow: auto;
+}
+.navbar ol{
+    padding-right: 50px;
+}
+.navbar li{
+    border: 3px hidden rgb(207, 199, 160);
+    padding-left: 0px;
+    padding-right: 15px;
+    float: left;
+    list-style: none; 
+    margin: 13px 20px;
+    
+}
+.logo {
+    font-size: 28px;
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+    border: 20px;
+}
+.navbar li a:hover{
+    color: #fff
+}
+.search{
+    float: right;
+    color: white;
+    padding: 12px 0px;
+}
+.navbar input{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px 1px;
+    margin-right: 0%;
+    height: 40px;
+    width: 159px;
+}
+li{color: #fff;}
+        
+body{
+            margin:0%;
+            padding: 0%;
+            background-color: none;
+        }
+
+        
+ .clearfix{
+            content: "";
+            display: block;
+            clear:both
+        }
+#main-div{
+            width:100%;
+            min-height: auto;
+            
+            float: left;
+        }
+#main-div .box{
+            width:30%;
+            min-height: auto;
+            background-color: none;
+            float: left;
+            margin-top: 2%;
+        }
+#main-div .box:nth-child(2){ margin-left: 1%;
+        width:60%;
+        margin-top:2%;
+    }
+#main-div .box:nth-child(1){
+        margin-left: 2%;
+       }
+aside ul{
+        text-align: left;
+}
+aside ul a{
+    color: aliceblue;
+}
+article a:hover{
+    color: red;
+}
+article div{
+    text-align: justify;
+}
+article p{
+    color: blanchedalmond;
+}
+aside a:hover{
+    color: yellow   ;
+}
